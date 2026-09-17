@@ -1,0 +1,118 @@
+{
+  "attempts": [
+    {
+      "id": "a-1789447193148-0dcl9t",
+      "quizId": "q-aptitude",
+      "quizTitle": "General Aptitude Test",
+      "userId": "u-1789195093864",
+      "userName": "Ro",
+      "attemptNumber": 1,
+      "answers": {
+        "aq1": [
+          "aq1a"
+        ],
+        "aq2": [
+          "aq2a"
+        ],
+        "aq3": [
+          "aq3b"
+        ]
+      },
+      "score": 0,
+      "maxScore": 3,
+      "percentage": 0,
+      "passed": false,
+      "startedAt": 1789447193148,
+      "timeSpent": 17,
+      "submittedAt": 1789447210550,
+      "completed": true,
+      "attemptToken": "8792010b-b3f3-4336-9db6-f9fa1357fbba"
+    },
+    {
+      "id": "a-1789447225967-wlpbmy",
+      "quizId": "q-aptitude",
+      "quizTitle": "General Aptitude Test",
+      "userId": "u-1789195093864",
+      "userName": "Ro",
+      "attemptNumber": 2,
+      "answers": {
+        "aq1": [
+          "aq1d"
+        ],
+        "aq2": [
+          "aq2d"
+        ],
+        "aq3": [
+          "aq3b"
+        ]
+      },
+      "score": 0,
+      "maxScore": 3,
+      "percentage": 0,
+      "passed": false,
+      "startedAt": 1789447225967,
+      "timeSpent": 10,
+      "submittedAt": 1789447236691,
+      "completed": true,
+      "attemptToken": "4dce5159-21c7-4797-8945-8025ac3426ae"
+    },
+    {
+      "id": "a-1789447559169-2rufs2",
+      "quizId": "q-aptitude",
+      "quizTitle": "General Aptitude Test",
+      "userId": "u-inspector-1",
+      "userName": "Arjun Mehta",
+      "attemptNumber": 1,
+      "answers": {
+        "aq1": [
+          "aq1b"
+        ],
+        "aq2": [
+          "aq2b"
+        ],
+        "aq3": [
+          "aq3a"
+        ]
+      },
+      "score": 3,
+      "maxScore": 3,
+      "percentage": 100,
+      "passed": true,
+      "startedAt": 1789447559169,
+      "timeSpent": 8,
+      "submittedAt": 1789447567890,
+      "completed": true,
+      "attemptToken": "41673c64-73ae-4559-b52a-5819a56130df",
+      "competencyStatus": "COMPETENT"
+    },
+    {
+      "id": "a-1789447779963-hsifho",
+      "quizId": "q-aptitude",
+      "quizTitle": "General Aptitude Test",
+      "userId": "u-1789447712187",
+      "userName": "Divyansh",
+      "attemptNumber": 1,
+      "answers": {
+        "aq1": [
+          "aq1b"
+        ],
+        "aq2": [
+          "aq2b"
+        ],
+        "aq3": [
+          "aq3a"
+        ]
+      },
+      "score": 3,
+      "maxScore": 3,
+      "percentage": 100,
+      "passed": true,
+      "startedAt": 1789447779963,
+      "timeSpent": 7,
+      "submittedAt": 1789447787954,
+      "completed": true,
+      "attemptToken": "f646a335-84ab-4712-b3fd-cfcff42b15e7",
+      "competencyStatus": "COMPETENT"
+    }
+  ]
+}
