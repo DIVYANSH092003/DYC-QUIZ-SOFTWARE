@@ -1,5 +1,6 @@
 # DYC QUIZ SOFTWARE
 
+<<<<<<< Updated upstream
 Next.js quiz and training application.
 
 ## Deploy to Vercel from GitHub
@@ -39,3 +40,39 @@ pnpm dev
 ```
 
 Open <http://localhost:3000>.
+=======
+This project is a Next.js app prepared for deployment on Vercel.
+
+## Deployment checklist
+
+1. Push this repository to GitHub.
+2. Import it in Vercel using the GitHub repository.
+3. Keep the framework detected as Next.js.
+4. Use the project root as the app root.
+5. Add the required environment variables in Vercel Project Settings > Environment Variables.
+6. Deploy.
+
+## Required environment variables
+
+Create a `.env.local` file for local development, and add equivalent variables in Vercel:
+
+```bash
+APP_URL=http://localhost:3000
+ADMIN_EMAIL=admin@dycglobal.com
+PASSWORD_RESET_SECRET=replace-with-a-long-random-secret
+RESEND_API_KEY=
+RESEND_FROM_EMAIL=
+```
+
+Notes:
+- `PASSWORD_RESET_SECRET` is required for password reset tokens in production.
+- `RESEND_API_KEY` and `RESEND_FROM_EMAIL` are optional if email recovery is not configured.
+- If email delivery is not configured, the app still runs locally with a development fallback.
+
+## Vercel-ready notes
+
+- The app uses the standard Next.js build pipeline.
+- Public hosting is supported for the quiz platform and admin routes.
+- If you want to expose the app publicly, keep secrets in Vercel environment variables instead of committing them to Git.
+
+>>>>>>> Stashed changes
